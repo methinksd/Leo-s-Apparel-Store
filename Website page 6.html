@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Booking</title>
+    <style>
+        h3{text-align: center;
+            font-family: Gubbi,serif;
+            color: black;
+            font-size: medium;
+            padding: 2px;
+            margin: auto;
+            float: snap;
+
+
+
+        }
+        body{
+            background-color: aqua;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+
+
+
+
+        form{
+            text-align: center;
+            font-family: Gubbi,serif;
+            color: black;
+            font-size: medium;
+
+            padding: 2px;
+            margin: auto;
+            float: snap;
+
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+<h3>Please fill the form!</h3>
+<form action="">
+    <label for="First name">First name</label>
+    <input type="text" id="First name" placeholder="First name"><br>
+    <label for="Last Name">Last Name</label>
+    <input type="text" id="Last Name" placeholder="Last name"><br>
+    Gender
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="others">others</label>
+    <input type="radio" id="others" name="gender"><br>
+    <label for="Email address">Email Address</label>
+    <input type="email" id="Email address" placeholder="Email address"><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="password"><br>
+    <label for="phone number">phone number</label>
+    <input type="phone number"id="phone number" placeholder="phone number"><br>
+    <label for="Payment method">Payment method</label><select name="Payment method" id="Payment method">
+    <option value="Credit card">Credit card</option>
+    <option value="cash">cash</option>
+    <option value="bank transfer">bank transfer</option>
+    <option value="Other">Other</option>
+</select>
+    <p><label for="Description">Give more details on what you would want done  :</label></p>
+    <textarea id="Description" name="Description" rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

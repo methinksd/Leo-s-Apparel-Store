@@ -1,0 +1,13 @@
+git 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
+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
+
+git init
+git add.
+git config user.name""
+git config user.email""
+git commit -m "initial"
+copy urlfrom github acount
+git push -u original master
+
+
+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
